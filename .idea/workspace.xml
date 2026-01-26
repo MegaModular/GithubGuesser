@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="438a8b7a-0b43-4b6e-8e81-d27c99326800" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GithubGuesser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="438a8b7a-0b43-4b6e-8e81-d27c99326800" name="Changes" comment="Github API Integration proof of concept works">
+      <change afterPath="$PROJECT_DIR$/src/GithubContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubGuesser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GithubGuesser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GithubGuesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GithubGuesser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +37,9 @@
     &quot;accountId&quot;: &quot;e562f2c3-d46f-47e3-a986-fae535f0c50a&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -110,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769106895007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Github API Integration proof of concept works">
+      <option name="closed" value="true" />
+      <created>1769115719926</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769115719926</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Github API Integration proof of concept works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Github API Integration proof of concept works" />
   </component>
 </project>
