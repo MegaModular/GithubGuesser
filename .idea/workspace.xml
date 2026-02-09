@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="438a8b7a-0b43-4b6e-8e81-d27c99326800" name="Changes" comment="Github API Integration proof of concept works">
-      <change afterPath="$PROJECT_DIR$/src/GithubContent.java" afterDir="false" />
+    <list default="true" id="438a8b7a-0b43-4b6e-8e81-d27c99326800" name="Changes" comment="Recursive file list &amp; random code URL implemented">
+      <change afterPath="$PROJECT_DIR$/src/SearchResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GithubContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GithubContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GithubGuesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GithubGuesser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GithubContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GithubContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GithubGuesser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GithubGuesser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SimpleRepo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,27 +55,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GithubGuesser.executor": "Run",
-    "Application.main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GithubGuesser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mikey\IdeaProjects\GithubGuesser" />
@@ -117,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769115719926</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Recursive file list &amp; random code URL implemented">
+      <option name="closed" value="true" />
+      <created>1769471413235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769471413235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Github API Integration proof of concept works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Github API Integration proof of concept works" />
+    <MESSAGE value="Recursive file list &amp; random code URL implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursive file list &amp; random code URL implemented" />
   </component>
 </project>

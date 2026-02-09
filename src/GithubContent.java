@@ -8,6 +8,7 @@ public class GithubContent {
     public String name;
     public String path;
     public String type;
+    public String content;
 
     @JsonProperty("_links")
     private void unpackLinks(Map<String, String> links) {
